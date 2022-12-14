@@ -4,27 +4,38 @@ jQuery(document).ready(function ($) {
    //new WOW().init();
 
    //swiper slider
-   if ($('.swiper-slide').length > 1) {
-      var swiper = new Swiper('.swiper-container', {
-         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-         },
-         pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-         },
-         //loop: true,
-         // autoplay: {
-         //    delay: 5000,
-         //    disableOnInteraction: false,
-         // },
-         simulateTouch: true,
-      });
-   } else {
-      $('.swiper-button-next').css('display', 'none');
-      $('.swiper-button-prev').css('display', 'none');
-   }
+
+   var swiper = new Swiper('.swiper-1', {
+
+      pagination: {
+         el: '.swiper-pagination',
+         clickable: true,
+      },
+      //loop: true,
+      // autoplay: {
+      //    delay: 5000,
+      //    disableOnInteraction: false,
+      // },
+      simulateTouch: true,
+   });
+   var swiper = new Swiper('.swiper-2', {
+      slidesPerView: 4.13,
+      navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+         el: '.swiper-pagination',
+         clickable: true,
+      },
+      //loop: true,
+      // autoplay: {
+      //    delay: 5000,
+      //    disableOnInteraction: false,
+      // },
+      simulateTouch: true,
+   });
+
 
    //lazyload
    $(window).scroll(function () {

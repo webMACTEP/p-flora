@@ -180,3 +180,108 @@ body {
   letter-spacing: 0.01em;
   color: #ffffff;
 }
+
+.format {
+  padding: 90px 0px 0px 0px;
+}
+
+.format .swiper-slide {
+  height: 500px;
+  text-align: center;
+  padding: 20px 0px 0px 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.format .swiper-slide:nth-child(even) {
+  margin: 44px 0px 0px 0px;
+}
+
+.format .swiper-slide:nth-child(even):hover {
+  margin: 0px 0px 0px 0px;
+}
+
+.format .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin: 20px 0px 60px 0px;
+  color: rgba(6, 37, 38, 0.7);
+  text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+}
+
+.format h2 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #062526;
+}
+
+.format .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+  color: #062526;
+}
+
+.format .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 268px;
+  height: 376px;
+  padding: 32px 24px 24px;
+  background: #f2f2f2;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.format .item:hover {
+  height: 420px;
+  background: #fbfbfb;
+  -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+}
+
+.format .item:hover .butt {
+  display: block;
+}
+
+.format .item .butt {
+  margin: 20px auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 1px solid #ad8bff;
+  border-radius: 16px;
+  padding: 18px 24px;
+  color: #ad8bff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  max-width: 163px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  display: none;
+}
+
+.format .item .img img {
+  width: 220px;
+  height: 220px;
+  border-radius: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

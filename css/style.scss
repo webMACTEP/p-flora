@@ -89,3 +89,90 @@ body {
    }
    background: linear-gradient(343.84deg, rgba(0, 0, 0, 0.81) 11.23%, rgba(0, 0, 0, 0.72) 113.3%);
 }
+.format {
+   .swiper-slide {
+      height: 500px;
+      text-align: center;
+      padding: 20px 0px 0px 20px;
+      transition: 0.2s;
+      &:nth-child(even) {
+         margin: 44px 0px 0px 0px;
+         &:hover {
+            margin: 0px 0px 0px 0px;
+         }
+      }
+   }
+   .subtitle {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 0.01em;
+      margin: 20px 0px 60px 0px;
+      color: rgba(6, 37, 38, 0.7);
+      text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+   }
+   h2 {
+      font-weight: 800;
+      font-size: 38px;
+      line-height: 130%;
+      text-align: center;
+      letter-spacing: 0.01em;
+
+      color: #062526;
+   }
+   padding: 90px 0px 0px 0px;
+   .title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 130%;
+      text-align: center;
+      margin: 40px 0px 0px 0px;
+      color: #062526;
+   }
+   .item {
+      display: flex;
+      flex-direction: column;
+      width: 268px;
+      height: 376px;
+      padding: 32px 24px 24px;
+      background: #f2f2f2;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 32px;
+      transition: 0.1s;
+      &:hover {
+         height: 420px;
+         background: #fbfbfb;
+         box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+         .butt {
+            display: block;
+         }
+      }
+
+      .butt {
+         margin: 20px auto;
+
+         align-self: center;
+         border: 1px solid #ad8bff;
+         border-radius: 16px;
+         padding: 18px 24px;
+         color: #ad8bff;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 120%;
+         max-width: 163px;
+         text-align: center;
+         letter-spacing: 0.01em;
+         display: none;
+         //display: block;
+      }
+      .img {
+         img {
+            width: 220px;
+            height: 220px;
+            border-radius: 150px;
+            object-fit: cover;
+         }
+      }
+   }
+}
