@@ -90,6 +90,32 @@ body {
    background: linear-gradient(343.84deg, rgba(0, 0, 0, 0.81) 11.23%, rgba(0, 0, 0, 0.72) 113.3%);
 }
 .format {
+   .container {
+      position: relative;
+   }
+   .swiper-button-prev,
+   .swiper-button-next {
+      &.sw2p {
+         background: url("../img/arrow_forward_ios.svg") #fff center center;
+         background-repeat: no-repeat;
+         transform: rotate(180deg);
+         width: 64px;
+         height: 64px;
+         border-radius: 50px;
+         left: -10px;
+         box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+      }
+      &.sw2n {
+         background: url("../img/arrow_forward_ios.svg") #fff center center;
+         background-repeat: no-repeat;
+         width: 64px;
+         height: 64px;
+         border-radius: 50px;
+         box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+         right: -35px;
+      }
+   }
+
    .swiper-slide {
       height: 500px;
       text-align: center;

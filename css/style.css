@@ -185,6 +185,36 @@ body {
   padding: 90px 0px 0px 0px;
 }
 
+.format .container {
+  position: relative;
+}
+
+.format .swiper-button-prev.sw2p,
+.format .swiper-button-next.sw2p {
+  background: url("../img/arrow_forward_ios.svg") #fff center center;
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  left: -10px;
+  -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+}
+
+.format .swiper-button-prev.sw2n,
+.format .swiper-button-next.sw2n {
+  background: url("../img/arrow_forward_ios.svg") #fff center center;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+  right: -35px;
+}
+
 .format .swiper-slide {
   height: 500px;
   text-align: center;

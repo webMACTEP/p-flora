@@ -38,12 +38,12 @@ jQuery(document).ready(function ($) {
 
 
    //lazyload
-   $(window).scroll(function () {
-      $(".sp_lazyload").lazyload();
-   });
+   // $(window).scroll(function () {
+   //    $(".sp_lazyload").lazyload();
+   // });
 
-   $(window).mousemove(function () {
-      $(".sp_lazyload").lazyload();
-   });
+   // $(window).mousemove(function () {
+   //    $(".sp_lazyload").lazyload();
+   // });
 
 });	
