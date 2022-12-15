@@ -1081,3 +1081,77 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.faq {
+  padding: 90px 0px 0px 0px;
+}
+
+.faq .wrapper {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.95);
+  /* darkness_max */
+  -webkit-box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 24px;
+}
+
+.faq .question-js {
+  position: relative;
+  cursor: pointer;
+  background: #ffffff;
+  /* Border / Top */
+  -webkit-box-shadow: inset 0px 1px 0px #dddfe0;
+          box-shadow: inset 0px 1px 0px #dddfe0;
+  padding: 24px;
+  color: #062526;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.faq .question-js.active::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  content: "";
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 24px;
+  height: 24px;
+  background: url("../img/faq-arr.svg");
+}
+
+.faq .question-js::before {
+  content: "";
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 24px;
+  height: 24px;
+  background: url("../img/faq-arr.svg");
+}
+
+.faq .question-js:nth-child(1) {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faq .answer-js {
+  letter-spacing: 0.01em;
+  color: rgba(6, 37, 38, 0.9);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 24px;
+  background: #ffffff;
+  /* Border / Top */
+  -webkit-box-shadow: inset 0px 1px 0px #dddfe0;
+          box-shadow: inset 0px 1px 0px #dddfe0;
+  display: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.faq .answer-js.active {
+  display: block;
+}

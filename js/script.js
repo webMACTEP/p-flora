@@ -1,5 +1,18 @@
 jQuery(document).ready(function ($) {
 
+   $('.question-js').click(function () {
+      if ($(this).hasClass('active') == false) {
+         $('.question-js').removeClass('active');
+         $('.answer-js').removeClass('active');
+         $(this).addClass('active').next().addClass('active');
+      } else {
+         $(this).removeClass('active');
+         $('.answer-js').removeClass('active');
+      }
+
+      return false;
+   });
+
    $('.q-butt').click(function () {
       if ($(this).hasClass('active') == false) {
          //$('.q-butt').removeClass('active');
