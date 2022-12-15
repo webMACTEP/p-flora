@@ -34,10 +34,10 @@ jQuery(document).ready(function ($) {
          clickable: true,
       },
       //loop: true,
-      // autoplay: {
-      //    delay: 5000,
-      //    disableOnInteraction: false,
-      // },
+      autoplay: {
+         delay: 6000,
+         disableOnInteraction: true,
+      },
       simulateTouch: true,
    });
 
