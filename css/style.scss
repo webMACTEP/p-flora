@@ -558,6 +558,11 @@ h2 {
       }
    }
    .q-butt {
+      &.active,
+      &:hover {
+         background: #ad8bff;
+         color: #fff;
+      }
       cursor: pointer;
       font-weight: 500;
       font-size: 16px;

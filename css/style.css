@@ -770,6 +770,11 @@ h2 {
   text-align: center;
 }
 
+.questions .q-butt.active, .questions .q-butt:hover {
+  background: #ad8bff;
+  color: #fff;
+}
+
 .questions .wrapper {
   gap: 16px;
   max-width: 827px;
