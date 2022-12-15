@@ -314,3 +314,44 @@ h2 {
    }
    padding: 30px 0px 0px 0px;
 }
+.stability {
+   p {
+      margin: 20px 0px 0px 0px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      /* or 18px */
+
+      text-align: center;
+      letter-spacing: 0.01em;
+
+      color: #1d3e35;
+   }
+   .item {
+      width: 200px;
+      text-align: center;
+   }
+   .wrapper {
+      background: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 24px;
+      padding: 32px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0px auto;
+      max-width: 800px;
+   }
+   h3 {
+      margin: 0px auto 40px auto;
+      max-width: 440px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 130%;
+      /* or 26px */
+
+      text-align: center;
+
+      color: #062526;
+   }
+   padding: 45px 0px 0px 0px;
+}
