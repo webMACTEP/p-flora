@@ -76,6 +76,25 @@ jQuery(document).ready(function ($) {
    });
 
 
+   var swiper = new Swiper('.swiper-5', {
+      slidesPerView: 4,
+      navigation: {
+         nextEl: '.sw5n',
+         prevEl: '.sw5p',
+      },
+      // pagination: {
+      //    el: '.swiper-pagination',
+      //    clickable: true,
+      // },
+      //loop: true,
+      // autoplay: {
+      //    delay: 5000,
+      //    disableOnInteraction: false,
+      // },
+      simulateTouch: true,
+   });
+
+
    //lazyload
    // $(window).scroll(function () {
    //    $(".sp_lazyload").lazyload();
