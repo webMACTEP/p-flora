@@ -509,3 +509,16 @@ h2 {
   text-align: center;
   color: #062526;
 }
+
+.video-pf {
+  padding: 64px 0px 0px 0px;
+}
+
+.video-pf .video {
+  max-width: 820px;
+  margin: 0px auto;
+}
+
+.video-pf .video iframe {
+  border-radius: 21.1413px;
+}

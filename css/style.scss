@@ -355,3 +355,13 @@ h2 {
    }
    padding: 45px 0px 0px 0px;
 }
+.video-pf {
+   .video {
+      max-width: 820px;
+      margin: 0px auto;
+      iframe {
+         border-radius: 21.1413px;
+      }
+   }
+   padding: 64px 0px 0px 0px;
+}
