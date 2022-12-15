@@ -1293,3 +1293,83 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.header {
+  padding: 18px 0px;
+  background: #333333;
+}
+
+.header .logo {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header .tel {
+  display: block;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+}
+
+.header .enter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 24px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  gap: 10px;
+}
+
+.header .enter:hover {
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+.header .enter:hover svg {
+  fill: #333;
+}
+
+.header .enter svg {
+  fill: #fff;
+}
+
+.header a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.header .container {
+  gap: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
