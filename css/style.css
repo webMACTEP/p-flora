@@ -854,6 +854,10 @@ h2 {
   border-radius: 50%;
 }
 
+.articles .subtitle {
+  margin: 20px auto 30px auto;
+}
+
 .articles .item {
   text-align: center;
   margin: 0px auto;
