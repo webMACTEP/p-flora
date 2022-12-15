@@ -263,9 +263,9 @@ h2 {
       }
    }
    .iphones {
-      margin: 0px auto;
+      margin: -23px auto 0px auto;
       width: 763px;
-      height: 507px;
+      height: 548px;
       background: url("../img/iPhones.png") no-repeat;
       background-position-y: top;
       background-size: cover;
@@ -412,6 +412,12 @@ h2 {
    padding: 120px 0px 0px 0px;
 }
 .functions {
+   .img {
+      margin-top: -7px;
+   }
+   .swiper-wrapper {
+      padding: 30px;
+   }
    .container {
       position: relative;
    }
