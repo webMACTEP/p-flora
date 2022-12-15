@@ -8,6 +8,26 @@ body {
    max-width: 1285px;
    margin: 0px auto;
 }
+.subtitle {
+   max-width: 550px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   letter-spacing: 0.01em;
+   margin: 20px auto 60px auto;
+   color: rgba(6, 37, 38, 0.7);
+   text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+}
+h2 {
+   font-weight: 800;
+   font-size: 38px;
+   line-height: 130%;
+   text-align: center;
+   letter-spacing: 0.01em;
+
+   color: #062526;
+}
 .intro {
    .swiper-pagination-fraction,
    .swiper-pagination-custom,
@@ -51,20 +71,31 @@ body {
       width: 270px;
       display: flex;
       align-items: center;
-
+      justify-content: space-between;
+      text-align: center;
       background: #ad8bff;
       border-radius: 16px;
-      display: block;
+      letter-spacing: 0.02em;
       padding: 18px 26px 18px 32px;
-      font-weight: 500;
+      font-weight: 300;
       font-size: 16px;
-      line-height: 150%;
-      /* or 19px */
-
-      text-align: right;
-      letter-spacing: 0.01em;
+      line-height: 120%;
+      border: 0.5px solid #ad8bff;
+      transition: 0.2s;
+      svg {
+         fill: #d9d9d9;
+      }
 
       color: #ffffff;
+      &:hover {
+         background: #ffffff;
+         color: #ad8bff;
+         svg {
+            fill: #ad8bff;
+         }
+
+         border: 0.5px solid #ad8bff;
+      }
    }
    .info {
       margin: 30px 0px 60px 0px;
@@ -128,25 +159,7 @@ body {
          }
       }
    }
-   .subtitle {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 150%;
-      text-align: center;
-      letter-spacing: 0.01em;
-      margin: 20px 0px 60px 0px;
-      color: rgba(6, 37, 38, 0.7);
-      text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
-   }
-   h2 {
-      font-weight: 800;
-      font-size: 38px;
-      line-height: 130%;
-      text-align: center;
-      letter-spacing: 0.01em;
 
-      color: #062526;
-   }
    padding: 90px 0px 0px 0px;
    .title {
       font-weight: 600;
@@ -201,4 +214,54 @@ body {
          }
       }
    }
+}
+.capabilities {
+   .it02 {
+      margin: 90px 0px 50px 0px;
+   }
+   .it04 {
+      margin: 90px 0px 0px 0px;
+   }
+   p {
+      margin: 0px 0px 10px 0px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.01em;
+      color: rgba(6, 37, 38, 0.9);
+      text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.3);
+   }
+   h3 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 130%;
+      margin: 0px 0px 16px 0px;
+      color: #062526;
+   }
+   .item {
+      padding: 24px;
+      background: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 32px;
+      display: flex;
+      width: 478px;
+      height: 282px;
+      .img {
+         margin: 0px 24px 0px 0px;
+         img {
+            width: 156px;
+            height: 234px;
+            object-fit: cover;
+            border-radius: 10px;
+         }
+      }
+   }
+   .wrapper {
+      margin: 0px auto;
+      display: flex;
+      max-width: 1040px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   padding: 30px 0px 0px 0px;
 }
