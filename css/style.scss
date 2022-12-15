@@ -915,3 +915,72 @@ h2 {
    }
    padding: 90px 0px 0px 0px;
 }
+.footer {
+   margin: 90px 0px 0px 0px;
+   .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+   }
+   .enter {
+      &:hover {
+         background: #fff;
+         color: #333;
+         text-decoration: none;
+         svg {
+            fill: #333;
+         }
+      }
+      margin: 0px 0px 24px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 24px;
+      border: 1px solid #ffffff;
+      border-radius: 16px;
+      gap: 10px;
+      svg {
+         fill: #fff;
+      }
+   }
+   span {
+      margin: 16px 0px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 120%;
+      /* identical to box height, or 17px */
+
+      letter-spacing: 0.01em;
+
+      color: rgba(255, 255, 255, 0.7);
+   }
+   ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+   a {
+      &:hover {
+         text-decoration: underline;
+      }
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 120%;
+      /* identical to box height, or 17px */
+
+      letter-spacing: 0.01em;
+
+      color: rgba(255, 255, 255, 0.7);
+   }
+   .column {
+      display: flex;
+      flex-direction: column;
+   }
+   .container {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 35px 0px;
+   background: #333333;
+}
