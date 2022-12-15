@@ -1093,7 +1093,7 @@ h2 {
 }
 
 .faq {
-  padding: 90px 0px 250px 0px;
+  padding: 90px 0px 50px 0px;
 }
 
 .faq .wrapper {
@@ -1164,4 +1164,29 @@ h2 {
 
 .faq .answer-js.active {
   display: block;
+}
+
+.form-main {
+  padding: 90px 0px 0px 0px;
+}
+
+.form-main .subtitle {
+  text-align: left;
+}
+
+.form-main .info {
+  max-width: 370px;
+}
+
+.form-main .info h2 {
+  text-align: left;
+}
+
+.form-main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

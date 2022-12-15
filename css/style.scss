@@ -896,5 +896,22 @@ h2 {
          display: block;
       }
    }
-   padding: 90px 0px 250px 0px;
+   padding: 90px 0px 50px 0px;
+}
+.form-main {
+   .subtitle {
+      text-align: left;
+   }
+   .info {
+      h2 {
+         text-align: left;
+      }
+
+      max-width: 370px;
+   }
+   .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 90px 0px 0px 0px;
 }
