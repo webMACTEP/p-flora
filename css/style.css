@@ -626,3 +626,108 @@ h2 {
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 24px;
 }
+
+.support {
+  padding: 90px 0px 0px 0px;
+}
+
+.support .item-01 {
+  top: -17px;
+  background: url("../img/sp01.png");
+}
+
+.support .item-02 {
+  right: 0;
+  top: 222px;
+  background: url("../img/sp02.png");
+}
+
+.support .item-03 {
+  right: 111px;
+  bottom: 100px;
+  background: url("../img/sp03.png");
+}
+
+.support .item-04 {
+  bottom: 100px;
+  left: 111px;
+  background: url("../img/sp04.png");
+}
+
+.support .item-05 {
+  left: 0;
+  top: 222px;
+  background: url("../img/sp05.png");
+}
+
+.support .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.support .item span {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  max-width: 200px;
+  margin-bottom: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.support .title {
+  max-width: 390px;
+  text-align: center;
+}
+
+.support .circle {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 130%;
+  /* or 49px */
+  letter-spacing: 0.01em;
+  color: #062526;
+  /* darkness_max */
+  text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 800px;
+  height: 800px;
+  border: 1px solid #ad8bff;
+  border-radius: 50%;
+}
+
+.support .wrapper {
+  margin: 0px auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1020px;
+  height: 1020px;
+}
