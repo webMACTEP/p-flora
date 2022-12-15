@@ -815,12 +815,22 @@ h2 {
   line-height: 120%;
   /* identical to box height, or 17px */
   letter-spacing: 0.01em;
-  /* nw/accent */
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #ad8bff;
 }
 
 .articles .butt svg {
   fill: #ad8bff;
+}
+
+.articles .butt:hover {
+  background: #ad8bff;
+  color: #fff;
+}
+
+.articles .butt:hover svg {
+  fill: #fff;
 }
 
 .articles .title {

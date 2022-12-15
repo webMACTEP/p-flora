@@ -604,11 +604,18 @@ h2 {
 
       letter-spacing: 0.01em;
 
-      /* nw/accent */
+      transition: 0.2s;
 
       color: #ad8bff;
       svg {
          fill: #ad8bff;
+      }
+      &:hover {
+         background: #ad8bff;
+         color: #fff;
+         svg {
+            fill: #fff;
+         }
       }
    }
    .title {
