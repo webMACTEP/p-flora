@@ -1,9 +1,18 @@
 jQuery(document).ready(function ($) {
 
-   //WOW
-   //new WOW().init();
+   $('.q-butt').click(function () {
+      if ($(this).hasClass('active') == false) {
+         //$('.q-butt').removeClass('active');
+         //$('.card').removeClass('active');
+         $(this).addClass('active');
+      } else {
+         $(this).removeClass('active');
+         //$('.card').removeClass('active');
+      }
 
-   //swiper slider
+      return false;
+   });
+
 
    var swiper = new Swiper('.swiper-1', {
 
@@ -95,13 +104,5 @@ jQuery(document).ready(function ($) {
    });
 
 
-   //lazyload
-   // $(window).scroll(function () {
-   //    $(".sp_lazyload").lazyload();
-   // });
-
-   // $(window).mousemove(function () {
-   //    $(".sp_lazyload").lazyload();
-   // });
 
 });	

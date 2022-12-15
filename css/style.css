@@ -770,7 +770,7 @@ h2 {
   text-align: center;
 }
 
-.questions .q-butt.active, .questions .q-butt:hover {
+.questions .q-butt.active {
   background: #ad8bff;
   color: #fff;
 }
