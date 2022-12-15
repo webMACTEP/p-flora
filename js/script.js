@@ -45,8 +45,8 @@ jQuery(document).ready(function ($) {
    var swiper = new Swiper('.swiper-2', {
       slidesPerView: 4.13,
       navigation: {
-         nextEl: '.swiper-button-next',
-         prevEl: '.swiper-button-prev',
+         nextEl: '.sw2n',
+         prevEl: '.sw2p',
       },
       // pagination: {
       //    el: '.swiper-pagination',
