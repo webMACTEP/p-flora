@@ -38,6 +38,24 @@ jQuery(document).ready(function ($) {
       simulateTouch: true,
    });
 
+   var swiper = new Swiper('.swiper-3', {
+      slidesPerView: 1,
+      navigation: {
+         nextEl: '.sw3n',
+         prevEl: '.sw3p',
+      },
+      // pagination: {
+      //    el: '.swiper-pagination',
+      //    clickable: true,
+      // },
+      //loop: true,
+      // autoplay: {
+      //    delay: 5000,
+      //    disableOnInteraction: false,
+      // },
+      simulateTouch: true,
+   });
+
 
    //lazyload
    // $(window).scroll(function () {
