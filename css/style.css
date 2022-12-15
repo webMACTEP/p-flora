@@ -346,6 +346,15 @@ h2 {
   padding: 30px 0px 0px 0px;
 }
 
+.capabilities .iphones {
+  margin: 0px auto;
+  width: 763px;
+  height: 507px;
+  background: url("../img/iPhones.png") no-repeat;
+  background-position-y: top;
+  background-size: cover;
+}
+
 .capabilities .it02 {
   margin: 90px 0px 50px 0px;
 }
