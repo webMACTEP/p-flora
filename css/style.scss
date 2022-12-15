@@ -221,6 +221,42 @@ h2 {
    }
 }
 .capabilities {
+   .line01 {
+      width: 83px;
+      position: relative;
+      img {
+         position: absolute;
+         left: 0;
+         top: 135px;
+      }
+   }
+   .line02 {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      img {
+         position: absolute;
+         right: 184px;
+      }
+   }
+   .line03 {
+      width: 83px;
+      position: relative;
+      img {
+         position: absolute;
+         left: 0;
+         top: 135px;
+      }
+   }
+   .line04 {
+      position: relative;
+      width: 100%;
+      height: 90px;
+      img {
+         position: absolute;
+         right: 237px;
+      }
+   }
    .iphones {
       margin: 0px auto;
       width: 763px;
@@ -230,10 +266,10 @@ h2 {
       background-size: cover;
    }
    .it02 {
-      margin: 90px 0px 50px 0px;
+      margin: 115px 0px 0px 0px;
    }
    .it04 {
-      margin: 90px 0px 0px 0px;
+      margin: 115px 0px 0px 0px;
    }
    p {
       margin: 0px 0px 10px 0px;
