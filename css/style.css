@@ -1295,6 +1295,11 @@ h2 {
 }
 
 .header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
   padding: 18px 0px;
   background: #333333;
 }
